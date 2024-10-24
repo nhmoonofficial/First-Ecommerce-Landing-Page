@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+.title{
+  width: 50%;
+  font-size: 50px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+/* .bannner{
+  background-image: url(images/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 200px ;
+} */
+
+
+.bannner {
+  position: relative;
+  background-image: url(images/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 200px;
+  height: 75vh; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 1; 
+}
+
+.container {
+  position: relative;
+  z-index: 2; 
+}
+
+
+
+.text{
+  color: #0B4B78;
+}
+
+.btntext{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0B4B78;
+  padding: 10px 35px;
+  border-radius: 25px;
+  border: none;
+}
+
+.info1{
+  padding: 40px 0px;
+}
+
+.txt{
+  padding: 20px 0px;
+}
+.imnfotxt1{
+  width: 50%;
+}
+.infoimg1{
+  width: 50%;
+}
+
+.infoimg1 img{
+  width: 90%;
+  height: 600;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  /* border: 1px solid #ddd; */
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+  
+  
+}
+
+tr:nth-child(even) {
+  border-top: 1px solid #000000;
+  background-color: beige;
+}
+
+
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+ 
+.Features{
+  visibility: hidden;
+}
+
+.op1{
+  width: 33%;
+}
+
+.op2{
+  width: 33%;
+}
+
+
+.info {
+  position: relative;
+  background-image: url(images/dementia-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 200px;
+  height: 350px; 
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+
+.info::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+  z-index: 1;
+}
+
+.info .content {
+  position: relative;
+  z-index: 2;
+  color: #fff; /* Make text white for better readability */
+  text-align: center;
+}
